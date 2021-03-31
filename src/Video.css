@@ -1,0 +1,21 @@
+#videoContainer {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+#video {
+  max-height: calc(100vh - 20px);
+  max-width: 100vw;
+}
+
+#videoControls {
+  display: flex;
+  flex-direction: row;
+  max-height: 20px;
+}
+
+#levelsLabel {
+  color: white;
+  margin: 0 5px 0 0;
+}
