@@ -93,6 +93,7 @@ footer ul#logs li:last-child .cursor {
 }
 
 #grid-container {
+  z-index: 0;
 }
 
 #grid-container #grid {
